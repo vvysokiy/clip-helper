@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src/",
+    "paths": {
+      "@mocks/*": ["../mocks/*"],
+      "@utils/*": ["../utils/*"]
+    },
+    "jsx": "react",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "declaration": false,
+    "lib": ["es7", "dom"],
+    "resolveJsonModule": true,
+    "typeRoots": ["./src/typings", "./src/api/typings", "./node_modules/@types"],
+    "noImplicitAny": true,
+    "downlevelIteration": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitThis": true
+  },
+  "include": ["src/*", "src/**/*", "story/*"],
+  "exclude": ["node_modules"]
+}
